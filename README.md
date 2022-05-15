@@ -27,8 +27,7 @@ To predict whether the customer is going to cancel booking or not.
 | reserved_room_type	| Code of room type reserved. Code is presented instead of designation for anonymity reasons |
 | assigned_room_type	| Code for the type of room assigned to the booking. Sometimes the assigned room type differs from the reserved room type due to hotel operation reasons (e.g. overbooking) or by customer request. Code is presented instead of designation for anonymity reasons. |
 | booking_changes	| Number of changes/amendments made to the booking from the moment the booking was entered on the PMS until the moment of check-in or cancellation |
-| deposit_type	| "Indication on if the customer made a deposit to guarantee the booking. This variable can assume three categories: * No Deposit – no deposit was made * Non Refund - a deposit was made in the value of the total stay cost
-* Refundable – a deposit was made with a value under the total cost of stay." |
+| deposit_type	| "Indication on if the customer made a deposit to guarantee the booking. This variable can assume three categories: * **No Deposit** – no deposit was made * **Non Refund** - a deposit was made in the value of the total stay cost * **Refundable** – a deposit was made with a value under the total cost of stay." |
 | agent	| ID of the travel agency that made the booking |
 | company	| ID of the company/entity that made the booking or responsible for paying the booking. ID is presented instead of designation for anonymity reasons |
 | days_in_waiting_list	| Number of days the booking was in the waiting list before it was confirmed to the customer |
