@@ -29,6 +29,7 @@ To predict whether the customer is going to cancel booking or not.
 
 **Model Analyzing**
 * Accuracy Score:-
+
 |   |	Model	| Accuracy Score |
 | - | ----- | -------------- |
 | 4 |	XG Boost Classifier	| 96.16 |
