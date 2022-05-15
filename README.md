@@ -31,20 +31,11 @@ To predict whether the customer is going to cancel booking or not.
 | agent	| ID of the travel agency that made the booking |
 | company	| ID of the company/entity that made the booking or responsible for paying the booking. ID is presented instead of designation for anonymity reasons |
 | days_in_waiting_list	| Number of days the booking was in the waiting list before it was confirmed to the customer |
-| customer_type	| "Type of booking, assuming one of four categories:
-
-Contract - when the booking has an allotment or other type of contract associated to it
-Group – when the booking is associated to a group
-Transient – when the booking is not part of a group or contract, and is not associated to other transient booking
-Transient-party – when the booking is transient, but is associated to at least other transient booking" |
+| customer_type	| "Type of booking, assuming one of four categories: * **Contract** - when the booking has an allotment or other type of contract associated to it * **Group** – when the booking is associated to a group * **Transient** – when the booking is not part of a group or contract, and is not associated to other transient booking * **Transient-party** – when the booking is transient, but is associated to at least other transient booking" |
 | adr	| Average Daily Rate as defined by dividing the sum of all lodging transactions by the total number of staying nights |
 | required_car_parking_spaces	| Number of car parking spaces required by the customer |
 | total_of_special_requests	| Number of special requests made by the customer (e.g. twin bed or high floor) |
-| reservation_status	| "Reservation last status, assuming one of three categories:
-
-Canceled – booking was canceled by the customer
-Check-Out – customer has checked in but already departed
-No-Show – customer did not check-in and did inform the hotel of the reason why" |
+| reservation_status	| "Reservation last status, assuming one of three categories: * **Canceled** – booking was canceled by the customer * **Check-Out** – customer has checked in but already departed * **No-Show** – customer did not check-in and did inform the hotel of the reason why" |
 | reservation_status_date	| Date at which the last status was set. This variable can be used in conjunction with the ReservationStatus to understand when was the booking canceled or when did the customer checked-out of the hotel |
 
 ![image](https://user-images.githubusercontent.com/92113558/168455806-023c1700-1c59-4fef-b7a3-051895993f29.png)
