@@ -38,7 +38,8 @@ To predict whether the customer is going to cancel booking or not.
 | 0	| Logistic Regression	| 81.68 |
 | 2	| Random Forest	| 78.79 |
 
-* ROC Curve:
+* **ROC Curve:**
+
 ![image](https://user-images.githubusercontent.com/92113558/168456593-92b932a1-d271-499b-ad31-8f68783782ca.png)
 
 **Conclusion**
